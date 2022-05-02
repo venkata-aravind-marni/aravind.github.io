@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venkata Aravind Marni</title>
+
+    <!-- <link rel="stylesheet" href="{{URL::asset('css/app.css')}}"> -->
+    <!-- <link rel="stylesheet" href="{{URL::to('portfolio')}}"> -->
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
+        integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid p-0">
+        <!-- HEADER -->
+        <!-- <section class="container"> -->
+        <nav class="navbar navbar-expand-lg nav_bar sticky-top d-none page-section">
+            <div class="container">
+                <a class="navbar-brand logo_text" href="#">
+                    <!-- <img src="{{URL::asset('/assets/images/all/logo.png')}}"width=75%; alt=""> -->
+                    Venkata Aravind Marni
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="collapsibleNavbar">
+                    <ul class="navbar-nav mx-auto header_links">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home"> Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#portfolio">portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- </section> -->
+        <!-- HEADER END -->
+
+        <section class="home page-section" id="home">
+            <div class="start d-flex align-items-center justify-content-center"
+                style="background-image: url('./images/home_img.png');">
+                <div>
+                    <!-- <img src="./Claudia ten Hoope - Freelance data analyst and data scientist_files/Logo-small-1.png" alt="" class="logo"> -->
+                    <p class="job-title" style = "color:#ffffff;">Software Engineer | Data Scientist</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about_section  page-section pt-5" id="about">
+            <div class="container">
+                <section id="aboutme" class="section about-section">
+                    <div class="about-container col-sm-10 offset-sm-1">
+                        <div class="about-terminal" data-aos="fade-up">
+
+                            <div class="terminal-header">
+                                <div class="terminal-header-button" style="background-color: #100b08;"></div>
+                                <div class="terminal-header-button" style="background-color: #513a28;"></div>
+                                <div class="terminal-header-button" style="background-color: #614530"></div>
+                                <div class="terminal-header-button" style="background-color:  #926849;"></div>
+                            </div>
+                            <div class="terminal-window">
+                                <div class="stat">
+                                    <p class="input-stat">C:/portfolio/about/Aravind <i class='fa fa-male'
+                                            style='font-size:20px;color:#312318'></i>:</p>
+                                </div>
+                                <div class="stat">
+                                    <p class="input-stat">Aravind.age()</p>
+                                    <p class="output-stat" data-aos="fade-left">
+                                        22
+                                    </p>
+                                </div>
+                                <div class="stat">
+                                    <p class="input-stat">Aravind.location()</p>
+                                    <p class="output-stat" data-aos="fade-left">
+                                        "Kakinada, India"
+                                    </p>
+                                </div>
+                                <div class="stat">
+                                    <p class="input-stat">Aravind.cv()</p>
+                                    <p class="output-stat" data-aos="fade-left">
+                                        "<u><a href="./Aravind-cv.pdf" target="_blank"
+                                                style="Color:#3c291d">Aravind-cv.pdf</a></u>"//
+                                        <--- Have a look at my CV before you go further. </p>
+                                </div>
+                                <div class="stat">
+                                    <p class="input-stat">Aravind.education()</p>
+                                    <p class="output-stat" data-aos="fade-left">
+                                        "Bachelors in Computer Science Engineering at
+                                        <u><a href="http://www.acet.ac.in/" target="_blank"
+                                                style="Color:#3c291d">Aditya College of Engineering and Technology.</a></u>"
+                                    </p>
+                                </div>
+                                <div class="stat">
+                                    <p class="input-stat">Aravind.skills()</p>
+                                    <p class="output-stat" data-aos="fade-left">
+                                        ['SQL', 'Python', 'PHP', 'Laravel framework', 'HTML', 'CSS', 'Bootstrap', 'Excel', 'Power BI', 'Tableau', 
+                                        'Selenium WebDriver', 'Pandas', 'NumPy', 'Matplotlib', 'Openpyxl', 'Jupyter', 'Data Analysis']
+                                    </p>
+                                </div>
+                                <div class="stat">
+                                    <p class="input-stat">Aravind.experience()</p>
+                                    <p class="output-stat" data-aos="fade-left">Software Engineer at <u><a
+                                                href="https://www.auroraelabs.com/" target="_blank"
+                                                style="Color:#3c291d">Aurora E Labs, Hyderabad.</a></u>"
+
+                                    </p>
+                                </div>
+                                <div class="stat">
+                                    <p class="input-stat">Aravind.Display(Projects)</p>
+                                    <p class="output-stat" data-aos="fade-left">
+                                        //sucessfully compiled, scroll down to view.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-center " style="padding-top:100px;" data-aos="zoom-in">
+                            <i class="fa fa-code " style="font-size:60px;color:#a41034"></i>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+
+    </div>
+    </section>
+    <!-- ABOUT SECTION END-->
+
+
+    <!-- portfolio -->
+
+    <section class="portfolio page-section" id="portfolio">
+        <div class="container">
+            <div class="projects-container col-sm-10 offset-sm-1">
+                <!-- My Portfolio -->
+                <div class="project-card row " data-aos="fade-up">
+                    <div class="col-lg-3 col-md-3 col-sm-12" data-aos="fade-right">
+                        <div class="card-img">
+                            <img src="images/home_img.png" class=" card_images" width="100%" alt="">
+                        </div>
+                    </div>
+                    <div class="card-text col-lg-9 col-md-9 col-sm-12" data-aos="fade-left">
+                        <div class="card-heade-text pt-5">
+                            <h2 class="heading-2">My Portfolio</h2>
+                        </div>
+
+                        <div class="card-about">
+                            <p>This portfolio is a static html website hosted on GitHub Pages that can be viewed on all the
+                                screen sizes.
+                            </p>
+                        </div>
+                        <div class="card-tags">
+                            <div class="chip">
+                                HTML
+                            </div>
+                            <div class="chip">
+                                CSS
+                            </div>
+                            <div class="chip">
+                                Bootstrap
+                            </div>
+                            <div class="chip">
+                                Javascript
+                            </div>
+                        </div>
+                        <div class="text-end pt-5">
+                            <a href="#">
+                                <button class="allpages_btns">View Source</button>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div class="project-card row mt-5" data-aos="fade-up">
+                    <div class="col-lg-3 col-md-3 col-sm-12" data-aos="fade-right">
+                        <div class="card-img">
+                            <img src="images/home_img.png" class=" card_images" width="100%" alt="">
+                        </div>
+                    </div>
+                    <div class="card-text col-lg-9 col-md-9 col-sm-12" data-aos="fade-left">
+                        <div class="card-heade-text pt-5">
+                            <h2 class="heading-2">project x</h2>
+                        </div>
+
+                        <div class="card-about">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis dolor, saepe autem, sapiente cumque nemo, aspernatur ipsa veniam consequuntur quidem maxime consequatur dolorem aliquid non earum itaque vitae repellat culpa.
+                            </p>
+                        </div>
+                        <div class="card-tags">
+                            <div class="chip">
+                                xxxxxx
+                            </div>
+                            <div class="chip">
+                                xxxxxx
+                            </div>
+                            <div class="chip">
+                                xxxxxx
+                            </div>
+                            <div class="chip">
+                                xxxxxx
+                            </div>
+                        </div>
+                        <div class="text-end pt-5">
+                            <a href="#">
+                                <button class="allpages_btns">View Source</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card row mt-5" data-aos="fade-up">
+                    <div class="col-lg-3 col-md-3 col-sm-12" data-aos="fade-right">
+                        <div class="card-img">
+                            <img src="images/home_img.png" class=" card_images" width="100%" alt="">
+                        </div>
+                    </div>
+                    <div class="card-text col-lg-9 col-md-9 col-sm-12" data-aos="fade-left">
+                        <div class="card-heade-text pt-5">
+                            <h2 class="heading-2">project x</h2>
+                        </div>
+
+                        <div class="card-about">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis dolor, saepe autem, sapiente cumque nemo, aspernatur ipsa veniam consequuntur quidem maxime consequatur dolorem aliquid non earum itaque vitae repellat culpa.
+                            </p>
+                        </div>
+                        <div class="card-tags">
+                            <div class="chip">
+                                xxxxxx
+                            </div>
+                            <div class="chip">
+                                xxxxxx
+                            </div>
+                            <div class="chip">
+                                xxxxxx
+                            </div>
+                            <div class="chip">
+                                xxxxxx
+                            </div>
+                        </div>
+                        <div class="text-end pt-5">
+                            <a href="#">
+                                <button class="allpages_btns">View Source</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- end portfolio -->
+
+
+
+
+
+    <!-- FOOTER  -->
+    <section class="footer_main_div page-section" id="contact">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-lg-12 text-center">
+                    <h2 class="heading-2" style="color:#286dc0;" >Contact</h2>
+                    <p class="all_footer_text">Feel free to contact me for any question. For open source projects,
+                        please open an issue or pull request on Github. If you want to follow my work, reach me on
+                        LinkedIn. Otherwise, send me an email at marni.venkata.aravind@gmail.com.</p>
+
+                </div>
+
+                <div class="row pt-5">
+                    <div class="col-lg-12 text-center">
+                        <a style="text-decoration: none;" href="https://github.com/venkata-aravind-marni" target="_blank">
+                            <i class="fa-brands fa-github icons_colors"></i>
+                        </a>
+                        <a style="text-decoration: none;" href="https://www.linkedin.com/in/venkata-aravind-marni/" target="_blank">
+                            <i class="fa-brands fa-linkedin-in icons_colors"></i>
+                        </a>
+                        <a style="text-decoration: none;" href="https://www.instagram.com/aravind_marni/" target="_blank">
+                            <i class="fa-brands fa-instagram icons_colors"></i>
+                        </a>
+                        <a style="text-decoration: none;" href="mailto:marnivenkataaravind@gmail.com">
+                            <i class="fa-solid fa-envelope icons_colors"></i>
+                        </a>
+                        <a style="text-decoration: none;" href="tel:+91-7989029813">
+                            <i class="fa-solid fa-phone icons_colors"></i>
+                        </a>   
+                    </div>
+                </div>
+            </div>
+            <hr class="text-white">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-8 col-12">
+                        <p class="footer-sub-txt">Copyright © 2022 , Aravind. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <p class="footer-sub-txt" >Designed and Developed by 
+                            <span style="color:#ffffff;">
+                                Aravind</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Back to top button -->
+        <button type="button" class="b btn btn-floating btn-lg" id="btn-back-to-top">
+            <!-- <i class="fas fa-angle-up"></i> -->
+            <i class="fa-solid fa-angle-up"></i>
+        </button>
+    </section>
+
+
+    <!-- FOOTER END -->
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="./scripts.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
