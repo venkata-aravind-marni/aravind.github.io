@@ -1,17 +1,26 @@
 /* COMMON STYLES */
 .logo_text{
-    /* text-decoration: none; */
+    
     color: #000000 !important;
-    font-family: yale,TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif;
+    font-family: Mallory-Medium,'Gill Sans','Gill Sans MT',Calibri,Arial,sans-serif;
+    font-weight: 600;
 }
 
 
 p{
+    /* color: #000000 ;
     font-size: 20px;
     font-size: 1.25rem;
     line-height: 1.2;
     letter-spacing: .54px;
-    font-family: yale,TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif;
+    font-family: yale,TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif; */
+
+
+    font-family: "Mallory",Verdana,Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    font-size: 1.0625em;
+    line-height: 1.85;
+    color: #222222;
 }
 
 html {
@@ -24,7 +33,12 @@ html {
     line-height: 1.2;
     font-family: yale,TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif;
     font-weight: 400;
-    color: #00356b
+    color: #00356b;
+}
+
+body,
+html {
+    overflow-x: hidden;
 }
 
 
@@ -40,11 +54,23 @@ html {
 nav.navbar.navbar-expand-lg.nav_bar{
     /* padding: 15px 0px; */
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 99;
 }
 
 .collapse ul li a{
     color: #000000 !important;
-    font-family: yale,TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif;
+    font-size: 16px;
+    /* line-height: 1.21428571; */
+    font-family: Mallory-Medium,'Gill Sans','Gill Sans MT',Calibri,Arial,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: .75px;
+    word-spacing: 1.25px;
+    text-transform: uppercase;
+    letter-spacing: .55px;
 }
 
 .header_links .nav-item a{
@@ -89,7 +115,9 @@ a.nav-link.active{
 
 /* TERMINAL CSS */
 
-
+.about-terminal{
+    margin : 0px 30px;
+}
 
 .terminal-header {
     display: flex;
@@ -111,7 +139,7 @@ a.nav-link.active{
 .terminal-window {
     /* background-color: rgb(216, 191, 175, 0.5); */
     /* background-color: #d7e9ff; */
-    background-color: #ffffff;
+    background-color: #FEFFFF;
     width: 100%;
     height: 100%;
     border-radius: 0 0 8px 8px;
@@ -141,6 +169,8 @@ a.nav-link.active{
     color: #150f0a;
     margin: 3px 0;
     position: relative;
+
+    
 }
 
 .input-stat:before {
@@ -150,9 +180,14 @@ a.nav-link.active{
 .output-stat {
     display: block;
     /* font-family: 'Source Code Pro', monospace; */
-    font-family: yale,TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif;
-    font-weight: 600;
-    font-size: 18px;
+    /* font-family: yale,TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif; */
+    font-family: "Mallory",Verdana,Arial,Helvetica,sans-serif;
+    /* font-weight: 500;
+    font-size: 14px; */
+    font-weight: normal;
+    font-size: 1.0625em;
+    line-height: 1.85;
+   
     color: #a41034;
     margin: 3px 0;
     position: relative;
@@ -211,7 +246,7 @@ h4{
 }
 /* Footer end */
 .footer-sub-txt{
-    font-size: 18px;
+    font-size: 15px;
     color: #848d85;
 }
 
@@ -224,7 +259,7 @@ h4{
 
 /* cards */
 .portfolio{
-    padding: 100px 0px;
+    margin: 100px 55px;
 }
 
 .card{
@@ -234,9 +269,10 @@ h4{
 .card_images{
     width: 200px;
     height: 200px;
-    color: #444;
+    object-fit:cover;
+    /* color: #444;
     background-color: #f0e7e0;
-    box-shadow: 0 4px 6px rgba(50, 50, 93, .1), 0 1px 4px rgba(0, 0, 0, .2);
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .1), 0 1px 4px rgba(0, 0, 0, .2); */
     border-radius: 50%;
 
 }
@@ -247,6 +283,7 @@ h4{
 
     padding: 30px;
 }
+
 
 
 
@@ -408,7 +445,7 @@ padding-top:100px;
     box-shadow: 0 1.2px 3.1px 0 rgba(55, 52, 169, 0.02), 0 5.5px 6.5px 0 rgba(55, 52, 169, 0.03), 0 13.4px 13px 0 rgba(55, 52, 169, 0.04), 0 25.8px 25.5px 0 rgba(55, 52, 169, 0.04), 0 43.4px 46.9px 0 rgba(55, 52, 169, 0.05), 0 67px 80px 0 rgba(55, 52, 169, 0.07);
     border: none;
     border-radius: 4px;
-    padding: 10px 40px;
+    padding: 10px 20px;
     color: #ffffff
 }
 
@@ -429,3 +466,6 @@ padding-top:100px;
     /* border: none !important; */
     box-shadow: none !important;
 }
+
+
+
