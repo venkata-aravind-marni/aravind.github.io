@@ -1,3 +1,4 @@
+// NAV 
 $(document).ready(function () {
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
@@ -12,7 +13,6 @@ $(document).ready(function () {
   });
 });
 
-// NAV ACTIVE
 
 var btns = $(".navbar .navbar-nav .nav-link");
 for (var i = 0; i < btns.length; i++) {
@@ -35,6 +35,7 @@ $(window)
   })
   .scroll();
 
+// back to top button  
 let mybutton = document.getElementById("btn-back-to-top");
 window.onscroll = function () {
   scrollFunction();
