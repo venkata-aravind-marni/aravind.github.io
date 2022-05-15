@@ -101,9 +101,9 @@ a.nav-link.active{
 
 
 /* TERMINAL */
-.about-terminal{
+/* .about-terminal{
     margin : 0px 30px;
-}
+} */
 
 .terminal-header {
     display: flex;
@@ -197,7 +197,7 @@ a.nav-link.active{
 
 /* cards */
 .portfolio{
-    margin: 100px 55px;
+    margin: 0px 55px;
 }
 
 .card{
@@ -422,4 +422,25 @@ h4{
 #btn-back-to-top:focus{
     /* border: none !important; */
     box-shadow: none !important;
+}
+
+
+
+
+.output_py{
+    /* color:#00356b; */
+    /* margin-bottom: 5px;
+     */
+     font-weight: normal;
+    font-size: 1.0625em;
+    line-height: 1.85;
+   
+    color: #00356b;
+    margin: 3px 0;
+    /* position: relative;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-fill-mode: backwards; */
+    padding: 5px;
+    word-break: break-word;
 }

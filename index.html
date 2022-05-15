@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="termynal.css">
 </head>
 
 <body>
@@ -20,7 +24,7 @@
         <nav class="navbar navbar-expand-lg nav_bar sticky-top d-none ">
             <div class="container">
                 <a class="navbar-brand logo_text" href="#">
-                    <!-- <img src="{{URL::asset('/assets/images/all/logo.png')}}"width=75%; alt=""> -->
+                    <img src="./images/venkata-aravind-marni-logo.png" width=10%; alt="">
                     Venkata Aravind Marni
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -50,16 +54,23 @@
 <!-- home -->
         <section class="home page-section" id="home">
             <div class="start d-flex align-items-center justify-content-center"
-                style="background-image: url('./images/home_img.png');">
-                <div>
-                    <!-- <img src="./Claudia ten Hoope - Freelance data analyst and data scientist_files/Logo-small-1.png" alt="" class="logo"> -->
+                style="background-image: url('./images/home_img2.jpg');">
+                <!-- <div class="d-flex justify-content-center">
+                    <img src="./images/venkata-aravind-marni-logo2.png" width="20%" alt="" class="logo">
+
                     <p class="job-title" style="color:#ffffff;">Software Engineer | Data Scientist</p>
+                </div> -->
+                <div>
+                    <figure class=" text-cemter">
+                        <img src="./images/venkata-aravind-marni-logo.png" width="30%" alt="" class="logo">
+                        <figcaption><p class="job-title" style="color:#ffffff;">Software Engineer | Data Scientist</p></figcaption>
+                      </figure>
                 </div>
             </div>
         </section>
 
 <!-- ABOUT SECTION -->
-        <section id="aboutme" class="section about-section page-section pt-5">
+        <section id="aboutme" class="section about-section page-section pt-5 d-none">
             <div class="about-container col-sm-10 offset-sm-1">
                 <div class="about-terminal " data-aos="fade-up">
 
@@ -119,8 +130,43 @@
             </div>
         </section>
 
+        <section class="pt-5">
+            <div class="ter_cls container d-flex justify-content-center">
+                <div id="termynal" data-termynal data-ty-typeDelay="20" data-ty-lineDelay="700" data-aos="fade-up">
+                    <!-- <span data-ty="input">pip install numPy</span>
+                    <span data-ty="progress" data-ty-progressLength="30"></span>
+                    <span data-ty>Successfully installed numPy</span>
+                    -->
+                    <span data-ty></span>
+                    <span data-ty="input">python3</span>
+                    <span data-ty="input" data-ty-prompt=">>>">import Aravind</span>
+                    <span data-ty="input" data-ty-prompt=">>>">Aravind.age()</span>
+                    <span data-ty > <label class="output_py">22</label></span>
+                    <span data-ty="input" data-ty-prompt=">>>">Aravind.location()</span>
+                    <span data-ty><label class="output_py">"Kakinada, India"</label></span>
+                    <span data-ty="input" data-ty-prompt=">>>">Aravind.cv()</span>
+                    <span data-ty><label class="output_py">"<u><a href="./Aravind-cv.pdf" target="_blank"style="Color:#3c291d">Aravind-cv.pdf</a></u>"        //
+                        <--- Have a look at my CV before you go further.</label></span>
+                    <span data-ty="input" data-ty-prompt=">>>">Aravind.education()</span>
+                    <span data-ty><label class="output_py">"Bachelors in Computer Science Engineering at
+                        <u><a href="http://www.acet.ac.in/" target="_blank" style="Color:#3c291d">AdityaCollege of Engineering and Technology.</a></u>"</label></span>
+                    <span data-ty="input" data-ty-prompt=">>>">Aravind.skills()</span>
+                    <span data-ty><label class="output_py">['SQL', 'Python', 'PHP', 'Laravel framework', 'HTML', 'CSS', 'Bootstrap', 'Excel', 'Power BI', 'Tableau',
+                        'Selenium WebDriver', 'Pandas', 'NumPy', 'Matplotlib', 'Openpyxl', 'Jupyter', 'Data Analysis']</label></span>
+                    <span data-ty="input" data-ty-prompt=">>>">Aravind.experience()</span>
+                    <span data-ty><label class="output_py">Software Engineer at 
+                        <u><a href="https://www.auroraelabs.com/" target="_blank" style="Color:#3c291d">Aurora E Labs, Hyderabad.</a></u>"</label></span>
+                    <span data-ty="input" data-ty-prompt=">>>">Aravind.Display(Projects)</span>
+                    <span data-ty><label class="output_py">//sucessfully compiled, scroll down to view.</label></span>
+                </div>
+            </div>
+            <div class="text-center " style="padding:100px 0px;" data-aos="zoom-in">
+                <i class="fa fa-code " style="font-size:60px;color:#00356b"></i>
+            </div>
+        </section>
+
 <!-- portfolio -->
-        <section class=" page-section" id="portfolio">
+        <section class="page-section" id="portfolio">
             <div class="container ">
                 <div class="portfolio">
 
@@ -237,8 +283,10 @@
             </div>
         </section>
 
+        
+
 <!-- FOOTER  -->
-        <section class="footer_main_div page-section" id="contact">
+        <section class="footer_main_div page-section mt-5" id="contact">
             <div class="container">
                 <div class="row pt-5">
                     <div class="col-lg-12 text-center">
@@ -295,6 +343,12 @@
     <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script> -->
     <script src="./scripts.js"></script>
+
+
+
+
+    <script src="termynal.js" data-termynal-container="#termynal"></script>
+
     <script>
         AOS.init();
     </script>
