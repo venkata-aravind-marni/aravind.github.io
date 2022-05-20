@@ -1,18 +1,25 @@
-// NAV 
+// NAV
 $(document).ready(function () {
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
     if (scroll > 40) {
       $(".navbar").removeClass("d-none");
       // $(".navbar").css("box-shadow" , "5px 0px 10px #888888");
-    } 
-    else {
+    } else {
       $(".navbar").addClass("d-none");
       // $(".navbar").css("box-shadow" , "0px 0px 0px #ffffff");
     }
   });
 });
 
+
+$(".navbar a").click(function (event) {
+	// check if window is small enough so dropdown is created
+	var toggle = $(".navbar-toggler").is(":visible");
+	if (toggle) {
+	  $(".navbar-collapse").collapse("hide");
+	}
+  });
 
 var btns = $(".navbar .navbar-nav .nav-link");
 for (var i = 0; i < btns.length; i++) {
@@ -35,7 +42,7 @@ $(window)
   })
   .scroll();
 
-// back to top button  
+// back to top button
 let mybutton = document.getElementById("btn-back-to-top");
 window.onscroll = function () {
   scrollFunction();

@@ -7,19 +7,19 @@
 [data-termynal] {
     margin-top: 50px;
     box-shadow: 0 50px 100px rgba(50, 50, 93, .15), 0 15px 35px rgba(50, 50, 93, .2), 0 5px 15px rgba(0, 0, 0, .12);
-    width: 1200px;
+    width: 1085px;
     max-width: 100%;
     background: var(--color-bg);
     /* color: var(--color-text); */
 
     font-family: "Mallory",Verdana,Arial,Helvetica,sans-serif;
     font-weight: 500;
-    font-size: 1.0625em;
+    font-size: 1em;
     line-height: 1.85;
     color: #222222;
     /* font-size: 18px;
     font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace; */
-    border-radius: 8px;
+    border-radius: 4px;
     padding: 30px 30px;
     position: relative;
     -webkit-box-sizing: border-box;
@@ -100,38 +100,8 @@
     }
 }
 
-
-
-/* body {
-  
-    width: 100%;
-    min-height: 100vh;
-    display: -webkit-box; display: -ms-flexbox; display: flex;
-    -webkit-box-align: center; -ms-flex-align: center; align-items: center;
-    -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;
-    -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
-} */
-
 body {
     --color-bg: #ffffff;
     --color-text: #150f0a;
     --color-text-subtle: #150f0a;
-
-    /* padding: 0; margin: 0; */
-    /* background: -webkit-linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
-background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
-    width: 100%;
-    min-height: 100vh; */
-    /* display: -webkit-box; display: -ms-flexbox; display: flex;
-    -webkit-box-align: center; -ms-flex-align: center; align-items: center;
-    -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;
-    -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; */
 }
-
-/* [data-ty="input"]:before {
-    color: red;
-} */
-
-/* .span_ans{
-color:#D76D77;
-} */

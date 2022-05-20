@@ -9,25 +9,22 @@
     <link rel="stylesheet" type="text/css" href="./styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
+        integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-
-
     <link rel="stylesheet" href="termynal.css">
 </head>
-
 <body>
     <div class="container-fluid p-0">
-<!-- HEADER -->
+        <!-- HEADER -->
         <nav class="navbar navbar-expand-lg nav_bar sticky-top d-none ">
-            <div class="container">
-                <a class="navbar-brand logo_text" href="#">
+            <div class="container-fluid nav_container">
+                <a class=" logo_text" href="#">
                     <!-- <img src="./images/venkata-aravind-marni-logo.png" width=10%; alt=""> -->
                     Venkata Aravind Marni
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
                     data-bs-target="#collapsibleNavbar">
                     <!-- <span class="navbar-toggler-icon"></span> -->
                     <i class="fas fa-bars"></i>
@@ -51,26 +48,26 @@
             </div>
         </nav>
 
-<!-- home -->
+        <!-- home -->
         <section class="home page-section" id="home">
             <div class="start d-flex align-items-center justify-content-center"
                 style="background-image: url('./images/home_img2.jpg');">
-                <!-- <div class="d-flex justify-content-center">
-                    <img src="./images/venkata-aravind-marni-logo2.png" width="20%" alt="" class="logo">
-
-                    <p class="job-title" style="color:#ffffff;">Software Engineer | Data Scientist</p>
-                </div> -->
                 <div>
-                    <figure class=" text-cemter">
+                    <figure class=" text-center">
                         <img src="./images/venkata-aravind-marni-logo.png" width="30%" alt="" class="logo">
-                        <figcaption><p class="job-title" style="color:#ffffff;">Software Engineer | Data Scientist</p></figcaption>
-                      </figure>
+                        <figcaption>
+                            <p class="job-title" style="color:#ffffff;">Software Engineer | Data Scientist</p>
+                        </figcaption>
+                    </figure>
                 </div>
             </div>
         </section>
 
-<!-- ABOUT SECTION -->
-        <section id="aboutme" class="section about-section page-section pt-5 d-none">
+        <div class="row">
+            <blockquote><i class="fa-solid fa-quote-left"></i> &nbsp I want to help others to make the right decisions, data-driven decisions &nbsp <i class="fa-solid fa-quote-right"></i></blockquote>
+        </div>
+        <!-- ABOUT SECTION -->
+        <section class="section about-section page-section pt-5 d-none">
             <div class="about-container col-sm-10 offset-sm-1">
                 <div class="about-terminal " data-aos="fade-up">
 
@@ -95,27 +92,31 @@
                         <div class="stat">
                             <p class="input-stat">Aravind.cv()</p>
                             <p class="output-stat" data-aos="fade-left">
-                                "<u><a href="./Aravind-cv.pdf" target="_blank"style="Color:#3c291d">Aravind-cv.pdf</a></u>"//
-                                <--- Have a look at my CV before you go further. 
-                            </p>
+                                "<u><a href="./venkata-aravind-marni-cv.pdf" target="_blank"
+                                        style="Color:#3c291d">Aravind-cv.pdf</a></u>"//
+                                <--- Have a look at my CV before you go further. </p>
                         </div>
                         <div class="stat">
                             <p class="input-stat">Aravind.education()</p>
                             <p class="output-stat" data-aos="fade-left">"Bachelors in Computer Science Engineering at
-                                <u><a href="http://www.acet.ac.in/" target="_blank" style="Color:#3c291d">AdityaCollege of Engineering and Technology.</a></u>"
+                                <u><a href="http://www.acet.ac.in/" target="_blank" style="Color:#3c291d">AdityaCollege
+                                        of Engineering and Technology.</a></u>"
                             </p>
                         </div>
                         <div class="stat">
                             <p class="input-stat">Aravind.skills()</p>
                             <p class="output-stat" data-aos="fade-left">
-                                ['SQL', 'Python', 'PHP', 'Laravel framework', 'HTML', 'CSS', 'Bootstrap', 'Excel', 'Power BI', 'Tableau',
-                                'Selenium WebDriver', 'Pandas', 'NumPy', 'Matplotlib', 'Openpyxl', 'Jupyter', 'Data Analysis']
+                                ['SQL', 'Python', 'PHP', 'Laravel framework', 'HTML', 'CSS', 'Bootstrap', 'Excel',
+                                'Power BI', 'Tableau',
+                                'Selenium WebDriver', 'Pandas', 'NumPy', 'Matplotlib', 'Openpyxl', 'Jupyter', 'Data
+                                Analysis']
                             </p>
                         </div>
                         <div class="stat">
                             <p class="input-stat">Aravind.experience()</p>
-                            <p class="output-stat" data-aos="fade-left">Software Engineer at 
-                                <u><a href="https://www.auroraelabs.com/" target="_blank" style="Color:#3c291d">Aurora E Labs, Hyderabad.</a></u>"
+                            <p class="output-stat" data-aos="fade-left">Software Engineer at
+                                <u><a href="https://www.auroraelabs.com/" target="_blank" style="Color:#3c291d">Aurora E
+                                        Labs, Hyderabad.</a></u>"
                             </p>
                         </div>
                         <div class="stat">
@@ -129,8 +130,7 @@
                 </div>
             </div>
         </section>
-
-        <section class="pt-5">
+        <section id="aboutme" class="">
             <div class="ter_cls container d-flex justify-content-center">
                 <div id="termynal" data-termynal data-ty-typeDelay="20" data-ty-lineDelay="700" data-aos="fade-up">
                     <!-- <span data-ty="input">pip install numPy</span>
@@ -141,152 +141,82 @@
                     <span data-ty="input">python3</span>
                     <span data-ty="input" data-ty-prompt=">>>">import Aravind</span>
                     <span data-ty="input" data-ty-prompt=">>>">Aravind.age()</span>
-                    <span data-ty > <label class="output_py">22</label></span>
+                    <span data-ty> <label class="output_py">22</label></span>
                     <span data-ty="input" data-ty-prompt=">>>">Aravind.location()</span>
                     <span data-ty><label class="output_py">"Kakinada, India"</label></span>
                     <span data-ty="input" data-ty-prompt=">>>">Aravind.cv()</span>
-                    <span data-ty><label class="output_py">"<u><a href="./Aravind-cv.pdf" target="_blank"style="Color:#3c291d">Aravind-cv.pdf</a></u>"        //
-                        <--- Have a look at my CV before you go further.</label></span>
+                    <span data-ty><label class="output_py">"<u><a href="./venkata-aravind-marni-cv.pdf" target="_blank"
+                                    style="Color:#3c291d">Aravind-cv.pdf</a></u>" //
+                            <--- Have a look at my CV before you go further.</label></span>
                     <span data-ty="input" data-ty-prompt=">>>">Aravind.education()</span>
                     <span data-ty><label class="output_py">"Bachelors in Computer Science Engineering at
-                        <u><a href="http://www.acet.ac.in/" target="_blank" style="Color:#3c291d">AdityaCollege of Engineering and Technology.</a></u>"</label></span>
+                            <u><a href="http://www.acet.ac.in/" target="_blank" style="Color:#3c291d">AdityaCollege of
+                                    Engineering and Technology.</a></u>"</label></span>
                     <span data-ty="input" data-ty-prompt=">>>">Aravind.skills()</span>
-                    <span data-ty><label class="output_py">['SQL', 'Python', 'PHP', 'Laravel framework', 'HTML', 'CSS', 'Bootstrap', 'Excel', 'Power BI', 'Tableau',
-                        'Selenium WebDriver', 'Pandas', 'NumPy', 'Matplotlib', 'Openpyxl', 'Jupyter', 'Data Analysis']</label></span>
+                    <span data-ty><label class="output_py">['SQL', 'Python', 'PHP', 'Laravel framework', 'HTML', 'CSS',
+                            'Bootstrap', 'Excel', 'Power BI', 'Tableau',
+                            'Selenium WebDriver', 'Pandas', 'NumPy', 'Matplotlib', 'Openpyxl', 'Jupyter', 'Data
+                            Analysis']</label></span>
                     <span data-ty="input" data-ty-prompt=">>>">Aravind.experience()</span>
-                    <span data-ty><label class="output_py">Software Engineer at 
-                        <u><a href="https://www.auroraelabs.com/" target="_blank" style="Color:#3c291d">Aurora E Labs, Hyderabad.</a></u>"</label></span>
+                    <span data-ty><label class="output_py">Software Engineer at
+                            <u><a href="https://www.auroraelabs.com/" target="_blank" style="Color:#3c291d">Aurora E
+                                    Labs, Hyderabad.</a></u>"</label></span>
                     <span data-ty="input" data-ty-prompt=">>>">Aravind.Display(Projects)</span>
                     <span data-ty><label class="output_py">//sucessfully compiled, scroll down to view.</label></span>
                 </div>
             </div>
-            <div class="text-center " style="padding:100px 0px;" data-aos="zoom-in">
+            <div class="text-center " style="padding:60px 0px;" data-aos="zoom-in">
                 <i class="fa fa-code " style="font-size:60px;color:#00356b"></i>
             </div>
         </section>
 
-<!-- portfolio -->
+        <!-- portfolio -->
         <section class="page-section" id="portfolio">
             <div class="container ">
-                <div class="portfolio">
-
-                <div class="project-card row " data-aos="fade-up">
-                    <div class="col-lg-3 col-md-3 col-sm-12" data-aos="fade-right">
-                        <div class="card-img ">
-                            <img src="./images/aravind-bw.jpg" class="pimg card_images" width="100%" height="100%" alt="venkata-aravind-marni">
+                <div class=" row portfolio">
+                    <div class="col-lg-12 col-xl-10 offset-xl-1">
+                        <div class="card project-card">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-4 col-sm-12 text-center" data-aos="fade-up">
+                                    <div class="card-img">
+                                        <img src="./images/aravind-bw.jpg" class="pimg card_images rounded-circle" width="100%" height="100%"
+                                            alt="venkata-aravind-marni">
+                                    </div>
+                                </div>
+                                <div class="col-lg-0 col-md-4 col-sm-0 d-none d-md-block d-lg-none"></div>
+                                <div class="card-text col-lg-9 col-md-12 col-sm-12" data-aos="fade-up">
+                                    <div class="card-heade-text pt-5">
+                                        <h2 class="heading-2">My Portfolio</h2>
+                                    </div>
+                                    <div class="card-about">
+                                        <p>This portfolio is a static html website hosted on GitHub Pages that can be viewed on
+                                            all the screen sizes.</p>
+                                    </div>
+                                    <div class="card-tags">
+                                        <div class="chip">HTML</div>
+                                        <div class="chip">CSS</div>
+                                        <div class="chip">Bootstrap</div>
+                                        <div class="chip">Javascript</div>
+                                    </div>
+                                    <div class=" view_scorce_div pt-5">
+                                        <a href="https://github.com/venkata-aravind-marni/venkata-aravind-marni.github.io"
+                                            target="_blank">
+                                            <button class="allpages_btns"><i class="fa-brands fa-github  view_scorce_icon"></i>View
+                                                Source</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="card-text col-lg-9 col-md-9 col-sm-12" data-aos="fade-left">
-                        <div class="card-heade-text pt-5">
-                            <h2 class="heading-2">My Portfolio</h2>
-                        </div>
-                        <div class="card-about">
-                            <p>This portfolio is a static html website hosted on GitHub Pages that can be viewed on all the screen sizes.</p>
-                        </div>
-                        <div class="card-tags">
-                            <div class="chip">HTML</div>
-                            <div class="chip">CSS</div>
-                            <div class="chip">Bootstrap</div>
-                            <div class="chip">Javascript</div>
-                        </div>
-                        <div class="text-end pt-5">
-                            <a href="https://github.com/venkata-aravind-marni/venkata-aravind-marni.github.io" target="_blank">
-                                <button class="allpages_btns"><i class="fa-brands fa-github icons_colors"></i>View Source</button>
-                            </a>
-                        </div>
-                    </div>
+                    
+            
                 </div>
-
-                <div class="project-card row mt-5" data-aos="fade-up">
-                    <div class="col-lg-3 col-md-3 col-sm-12" data-aos="fade-right">
-                        <div class="card-img">
-                            <img src="images/home_img.png" class=" card_images" width="100%" alt="">
-                        </div>
-                    </div>
-                    <div class="card-text col-lg-9 col-md-9 col-sm-12" data-aos="fade-left">
-                        <div class="card-heade-text pt-5">
-                            <h2 class="heading-2">Project X</h2>
-                        </div>
-
-                        <div class="card-about">
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis dolor, saepe
-                                autem,
-                                sapiente cumque nemo, aspernatur ipsa veniam consequuntur quidem maxime
-                                consequatur dolorem
-                                aliquid non earum itaque vitae repellat culpa.
-                            </p>
-                        </div>
-                        <div class="card-tags">
-                            <div class="chip">
-                                xxxxxx
-                            </div>
-                            <div class="chip">
-                                xxxxxx
-                            </div>
-                            <div class="chip">
-                                xxxxxx
-                            </div>
-                            <div class="chip">
-                                xxxxxx
-                            </div>
-                        </div>
-                        <div class="text-end pt-5">
-                            <a href="#">
-                                <button class="allpages_btns">View Source</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card row mt-5" data-aos="fade-up">
-                    <div class="col-lg-3 col-md-3 col-sm-12" data-aos="fade-right">
-                        <div class="card-img">
-                            <img src="images/home_img.png" class=" card_images" width="100%" alt="">
-                        </div>
-                    </div>
-                    <div class="card-text col-lg-9 col-md-9 col-sm-12" data-aos="fade-left">
-                        <div class="card-heade-text pt-5">
-                            <h2 class="heading-2">Project Y</h2>
-                        </div>
-
-                        <div class="card-about">
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis dolor, saepe
-                                autem,
-                                sapiente cumque nemo, aspernatur ipsa veniam consequuntur quidem maxime
-                                consequatur dolorem
-                                aliquid non earum itaque vitae repellat culpa.
-                            </p>
-                        </div>
-                        <div class="card-tags">
-                            <div class="chip">
-                                xxxxxx
-                            </div>
-                            <div class="chip">
-                                xxxxxx
-                            </div>
-                            <div class="chip">
-                                xxxxxx
-                            </div>
-                            <div class="chip">
-                                xxxxxx
-                            </div>
-                        </div>
-                        <div class="text-end pt-5">
-                            <a href="#">
-                                <button class="allpages_btns">View Source</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                </div>
-
             </div>
         </section>
 
-        
-
-<!-- FOOTER  -->
-        <section class="footer_main_div page-section mt-5" id="contact">
+        <!-- FOOTER  -->
+        <section class="footer_main_div page-section" id="contact">
             <div class="container">
                 <div class="row pt-5">
                     <div class="col-lg-12 text-center">
@@ -298,13 +228,16 @@
                     </div>
                     <div class="row pt-3">
                         <div class="col-lg-12 text-center">
-                            <a style="text-decoration: none;" href="https://github.com/venkata-aravind-marni" target="_blank">
+                            <a style="text-decoration: none;" href="https://github.com/venkata-aravind-marni"
+                                target="_blank">
                                 <i class="fa-brands fa-github icons_colors"></i>
                             </a>
-                            <a style="text-decoration: none;" href="https://www.linkedin.com/in/venkata-aravind-marni/" target="_blank">
+                            <a style="text-decoration: none;" href="https://www.linkedin.com/in/venkata-aravind-marni/"
+                                target="_blank">
                                 <i class="fa-brands fa-linkedin-in icons_colors"></i>
                             </a>
-                            <a style="text-decoration: none;" href="https://www.instagram.com/aravind_marni/" target="_blank">
+                            <a style="text-decoration: none;" href="https://www.instagram.com/aravind_marni/"
+                                target="_blank">
                                 <i class="fa-brands fa-instagram icons_colors"></i>
                             </a>
                             <a style="text-decoration: none;" href="mailto:marnivenkataaravind@gmail.com">
@@ -320,7 +253,7 @@
                 <div class="container ">
                     <div class="row ">
                         <div class="col-md-8 col-12">
-                            <p class="footer-sub-txt">Copyright © 2022 , Aravind. All Rights Reserved.</p>
+                            <p class="footer-sub-txt">Copyright © 2022 , Venkata Aravind Marni. All Rights Reserved.</p>
                         </div>
                         <div class="col-md-4 col-12">
                             <p class="footer-sub-txt">Designed and Developed by
@@ -337,21 +270,13 @@
         </section>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script> -->
     <script src="./scripts.js"></script>
-
-
-
-
     <script src="termynal.js" data-termynal-container="#termynal"></script>
-
     <script>
         AOS.init();
     </script>
-
 </body>
 </html>
